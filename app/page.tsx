@@ -4,11 +4,11 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Saul Martinez    |    Portfolio
+        Saul Martinez Valencia
       </h1>
       <p className="mb-4">
         {`I'm a first-generation college student graduating this December
-        with a Bachelor's in Computer Science and a degree in Cybersecurity. 
+        with a Bachelor's in Computer Science and a certificate in Cybersecurity. 
         My technical skills come from school projects where I've developed 
         software and solved complex problems. Through my role as a Peer Mentor 
         at the Dream Success Center, which supports undocumented students, 
