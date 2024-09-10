@@ -1,12 +1,16 @@
 import React from 'react';
 
-const About = () => {
+export const metadata = {
+    title: 'About',
+    description: 'More about me and my site.',
+  }
+  
+  export default function Page() {
     return (
-        <div>
-            <h1>About Us</h1>
-            <p>This is the about page for our site.</p>
-        </div>
-    );
-}
-
-export default About;
+      <section>
+        <h1 className="font-semibold text-2xl mb-8 tracking-tighter">About me</h1>
+        <p>This is the about page for our site.</p>
+      </section>
+    )
+  }
+  
